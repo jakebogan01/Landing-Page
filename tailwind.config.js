@@ -2,7 +2,11 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-      extend: {},
+      extend: {
+        backgroundColor: theme => ({
+          'blue-950': '#111827',
+        })
+      },
   },
   variants: {
       extend: {},
