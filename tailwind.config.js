@@ -11,12 +11,15 @@ module.exports = {
           'screen-3xl': '120rem',
         },
         minWidth: {
+          '500': '31.25rem',
+          '550': '34.375rem',
           '581': '36.3125rem',
           '605': '37.8125rem',
           'screen-3xl': '120rem',
         },
         width: {
           '48': '48.5rem',
+          '460': '28.75rem',
           '581': '36.3125rem',
         },
         height: {
@@ -28,6 +31,7 @@ module.exports = {
         },
         fontSize: {
           '22': '1.375rem',
+          '45': '2.8125rem',
           '58': '3.625rem',
         },
         textColor: {

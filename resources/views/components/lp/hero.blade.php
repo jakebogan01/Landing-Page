@@ -1,22 +1,22 @@
 <main class="relative flex flex-col items-center mx-auto overflow-hidden">
 
-     <section class="relative w-full max-w-screen-xl lg:my-17 p-10 lg:p-6 sm:rounded-lg text-primary z-20">
-          <div class="flex flex-col justify-center items-center lg:flex-row my-17 text-white">
+     <section class="relative w-full max-w-screen-xl p-10 lg:p-6 sm:rounded-lg text-primary z-20">
+          <div class="flex flex-col xl:flex-row justify-center items-center text-white px-20">
 
-               <div class="min-w-605 mt-96 mb-439 mr-6">
+               <div class="xl:min-w-550 2xl:min-w-605 xl:mt-96 mb-24 xl:mb-439 xl:mr-6 bg-black bg-opacity-50 xl:bg-transparent rounded-4xl p-20 xl:p-0">
                     <h3 class="font-bold text-22 text-orange-550">
                          FREE WHITEPAPER
                     </h3>
-                    <h1 class="text-58 font-bold mt-3 leading-snug text-blue-450">
+                    <h1 class="text-4xl xl:text-45 2xl:text-58 font-bold mt-3 leading-snug text-blue-450">
                          Gain Visibility, Control and Scalability for your High Net Worth Clients
                     </h1>
-                    <p class="text-3xl font-medium mt-10 text-gray-750 leading-10">
+                    <p class="xl:text-2xl 2xl:text-3xl font-medium mt-10 text-white xl:text-gray-750 leading-10">
                          Why wealth management firms and family offices should offer bill pay services now.
                     </p>
                </div>
 
                <div class="w-full mt-16 lg:mt-0">
-                    <div class="ml-123 min-w-581 bg-white rounded-4xl px-9 py-16" style="box-shadow: -23px 30px 60px rgba(0,0,0,0.17)">
+                    <div class="xl:w-460 2xl:w-581 mx-auto xl:ml-123 bg-white rounded-4xl px-9 py-16" style="box-shadow: -23px 30px 60px rgba(0,0,0,0.17)">
                          <form action="">
                               <div class="pb-3.5">
                                    <label for="first_name" class="sr-only">First Name</label>
@@ -66,7 +66,7 @@
      </section>
 
      <div class="absolute min-w-screen-3xl h-full z-10">
-          <div class="absolute right-0 h-full bg-green-600 bg-center bg-no-repeat bg-cover w-48" style="filter: blur(0.4375rem); background-image: url('{{ asset('img/meeting.png') }}')"></div>
+          <div class="absolute right-0 h-full bg-top xl:bg-center bg-no-repeat bg-cover w-full xl:w-48" style="filter: blur(0.4375rem); background-image: url('{{ asset('img/meeting.png') }}')"></div>
      </div>
 
 </main>
