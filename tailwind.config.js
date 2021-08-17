@@ -24,6 +24,7 @@ module.exports = {
           '460': '28.75rem',
           '581': '36.3125rem',
           '605': '37.8125rem',
+          '835': '52.1875rem',
         },
         height: {
           '1248': '78rem',
@@ -37,6 +38,7 @@ module.exports = {
           '22': '1.375rem',
           '45': '2.8125rem',
           '58': '3.625rem',
+          '73': '4.5625rem',
         },
         textColor: {
           'orange-550': '#F07D19',
@@ -47,6 +49,7 @@ module.exports = {
         },
         borderRadius: {
           'rg': '0.3125rem',
+          '2xl-1/2': '1.25rem',
           '4xl': '2.5rem',
         },
         placeholderColor: {
