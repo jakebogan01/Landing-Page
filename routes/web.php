@@ -14,4 +14,7 @@ use App\Http\Controllers\IndexController;
 |
 */
 
-Route::get('/',[IndexController::class, 'index'])->name('home');
+Route::get('/',[IndexController::class, 'index'])->name('landingpage');
+
+Route::get('/thankyou',[IndexController::class, 'thankyou'])->name('thankyou');
+Route::post('/thankyou',[IndexController::class, 'store']);

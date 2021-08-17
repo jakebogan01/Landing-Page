@@ -19,7 +19,8 @@
           <div>
                <div class="bg-white px-9 py-6 sm:min-w-460 sm:mx-auto md:w-full xl:w-460 xl:ml-32 xl:rounded-4xl 2xl:mr-20" style="box-shadow: -23px 30px 60px rgba(0,0,0,0.17)">
                     <h3 class="text-center font-bold text-2xl text-gray-750 mb-4">Gain Access</h3>
-                    <form action="">
+                    <form action="{{ route('thankyou') }}" method="POST">
+                         @csrf
                          <div class="pb-3.5">
                               <label for="first_name" class="sr-only">First Name</label>
                               <input type="text" class="w-full bg-gray-250 py-2.5 px-4 placeholder-gray-250 text-xl font-medium text-gray-500 focus:ring-cards-buttonHover focus:uttonHover 0 rounded-rg" name="first_name" id="first_name" placeholder="First Name" value="" required="true">
@@ -30,11 +31,11 @@
                          </div>
                          <div class="pb-3.5">
                               <label for="business_email" class="sr-only">Business Email</label>
-                              <input type="text" class="w-full bg-gray-250 py-2.5 px-4 placeholder-gray-250 text-xl font-medium text-gray-500 focus:ring-cards-buttonHover focus:uttonHover 0 rounded-rg" name="business_email" id="business_email" placeholder="Business Email" value="" required="true">
+                              <input type="email" class="w-full bg-gray-250 py-2.5 px-4 placeholder-gray-250 text-xl font-medium text-gray-500 focus:ring-cards-buttonHover focus:uttonHover 0 rounded-rg" name="business_email" id="business_email" placeholder="Business Email" value="" required="true">
                          </div>
                          <div class="pb-3.5">
                               <label for="business_phone" class="sr-only">Business Phone</label>
-                              <input type="text" class="w-full bg-gray-250 py-2.5 px-4 placeholder-gray-250 text-xl font-medium text-gray-500 focus:ring-cards-buttonHover focus:uttonHover 0 rounded-rg" name="business_phone" id="business_phone" placeholder="Business Phone" value="" required="true">
+                              <input type="tell" class="w-full bg-gray-250 py-2.5 px-4 placeholder-gray-250 text-xl font-medium text-gray-500 focus:ring-cards-buttonHover focus:uttonHover 0 rounded-rg" name="business_phone" id="business_phone" placeholder="Business Phone" value="" required="true">
                          </div>
                          <div class="">
                               <label for="company_name" class="sr-only">Company Name</label>
