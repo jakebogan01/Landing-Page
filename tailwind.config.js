@@ -6,11 +6,13 @@ module.exports = {
         backgroundColor: theme => ({
           'blue-950': '#111827',
           'gray-250': '#E6E6E6',
+          'purple-750': '#6246F5',
         }),
         maxWidth: {
           'screen-3xl': '120rem',
         },
         minWidth: {
+          '460': '28.75rem',
           '500': '31.25rem',
           '550': '34.375rem',
           '581': '36.3125rem',
@@ -27,6 +29,7 @@ module.exports = {
           '1248': '78rem',
         },
         margin: {
+          'negative': '-12.5rem',
           '123': '7.6875rem',
           '439': '27.4375rem',
         },
