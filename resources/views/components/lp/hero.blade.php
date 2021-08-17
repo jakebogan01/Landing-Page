@@ -3,21 +3,21 @@
      <section class="flex flex-col relative max-w-screen-xl mx-auto md:flex-row lg:justify-between xl:justify-center xl:pt-32 xl:pb-52 z-10">
 
 {{-- hero headings --}}
-          <div class="bg-white bg-opacity-60 px-4 py-44 lg:px-28 xl:px-4 sm:m-0 md:mt-0 lg:mx-auto xl:mx-0 xl:w-605 xl:bg-transparent xl:bg-opacity-0 2xl:mx-0 2xl:p-0 sm:flex sm:flex-col sm:justify-center sm:items-center">
-               <h3 class="w-full font-bold text-lg text-orange-550 xl:text-22">
+          <div class="bg-white bg-opacity-60 px-4 py-28 lg:px-20 xl:px-4 sm:m-0 md:mt-0 lg:mx-auto xl:mx-0 xl:w-605 xl:bg-transparent xl:bg-opacity-0 2xl:mx-0 2xl:p-0 sm:flex sm:flex-col justify-center items-center">
+               <h3 class="w-full font-bold text-lg text-yellow-500 xl:text-22">
                     FREE WHITEPAPER
                </h3>
-               <h1 class="w-full text-4xl font-bold mt-3 text-blue-450 md:text-3xl lg:text-4xl xl:text-45 xl:leading-snug 2xl:text-58">
+               <h1 class="w-full text-3xl font-bold mt-3 text-blue-450 md:text-3xl lg:text-4xl xl:text-45 xl:leading-snug 2xl:text-58">
                     Gain Visibility, Control and Scalability for your High Net Worth Clients
                </h1>
-               <p class="w-full text-xl md:text-2xl font-medium mt-10 xl:text-3xl sm:text-gray-750 xl:leading-10">
+               <p class="w-full text-lg sm:text-xl xl:text-2xl font-medium mt-10 sm:text-gray-750 xl:leading-10">
                     Why wealth management firms and family offices should offer bill pay services now.
                </p>
           </div>
 
 {{-- hero form --}}
           <div>
-               <div class="bg-white px-9 py-6 sm:rounded-3xl sm:min-w-460 sm:mx-auto md:rounded-none md:w-full xl:w-460 xl:ml-32 xl:rounded-4xl 2xl:mr-20" style="box-shadow: -23px 30px 60px rgba(0,0,0,0.17)">
+               <div class="bg-white px-9 py-6 sm:min-w-460 sm:mx-auto md:w-full xl:w-460 xl:ml-32 xl:rounded-4xl 2xl:mr-20" style="box-shadow: -23px 30px 60px rgba(0,0,0,0.17)">
                     <h3 class="text-center font-bold text-2xl text-gray-750 mb-4">Gain Access</h3>
                     <form action="">
                          <div class="pb-3.5">
@@ -58,7 +58,7 @@
                               <button class="w-full font-bold text-2xl text-white rounded-rg py-5" style="background-image: linear-gradient(to right, #5B87EA , #6335E0);">Download Now</button>
                          </div>
                          <div>
-                              <img src="{{ asset('img/bill.png') }}" alt="">
+                              <img src="{{ asset('img/bill.png') }}" alt="Bill.com">
                          </div>
                     </form>
                </div>

@@ -43,6 +43,7 @@ module.exports = {
           'blue-450': '#0798D8',
           'gray-750': '#404040',
           'gray-350': '#8D8D8D',
+          'blue-250': '#00FFC2',
         },
         borderRadius: {
           'rg': '0.3125rem',

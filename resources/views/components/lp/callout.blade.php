@@ -8,7 +8,7 @@
           <br>
           <p>The guide spotlights four progressive firm leaders who have leveraged technology such as Bill.com and proven business practices to offer sophisticated client accounting and bill pay services. Leaders share their insights on what has led to their success and increased client satisfaction.</p>
           <br>
-          <h3 class="pb-4 font-semibold">Key Guiding Principles:</h3>
+          <h3 class="pb-4 font-semibold text-blue-250">Key Guiding Principles:</h3>
           <ul class="list-disc px-10">
                <li>CAS Structure and Pricing</li>
                <li>Standardization of Processes and Technology</li>
@@ -16,7 +16,7 @@
                <li>Marketing and Business Development</li>
                <li>Specialization</li>
           </ul>
-          <p class="pt-4 font-bold">Fill out the form to receive your copy of this exclusive eBook!</p>
+          <p class="pt-4 font-bold text-blue-250">Fill out the form to receive your copy of this exclusive eBook!</p>
           <hr class="opacity-40 mt-10 mb-2">
           <p class="opacity-40 text-center text-lg"><i>By downloading content from this page, you may be contacted by a vendor.</i></p>
      </div>
