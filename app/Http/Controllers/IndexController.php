@@ -32,6 +32,8 @@ class IndexController extends Controller
             'last_name'=>$request->first_name
         ]);
 
-        return redirect()->route('thankyou');
+        $name = $request->last_name;
+
+        return redirect()->route('thankyou')->with('status',$name);
     }
 }
