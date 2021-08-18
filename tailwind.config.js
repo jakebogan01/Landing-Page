@@ -27,6 +27,11 @@ module.exports = {
           '605': '37.8125rem',
           '835': '52.1875rem',
         },
+        inset: {
+          '665': '-41.5625rem',
+          '765': '-47.8125rem',
+          '865': '-54.0625rem',
+        },
         height: {
           '1248': '78rem',
         },
@@ -57,6 +62,7 @@ module.exports = {
           'gray-250': '#6a707d',
         },
         screens: {
+          'small-desktop': '106.25rem',
           'desktop': '120rem',
         },
         boxShadow: {
