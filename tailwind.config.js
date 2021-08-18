@@ -21,6 +21,7 @@ module.exports = {
         },
         width: {
           '48': '48.5rem',
+          '226': '14.125rem',
           '460': '28.75rem',
           '581': '36.3125rem',
           '605': '37.8125rem',
@@ -54,6 +55,16 @@ module.exports = {
         },
         placeholderColor: {
           'gray-250': '#6a707d',
+        },
+        screens: {
+          'desktop': '120rem',
+        },
+        boxShadow: {
+          'extra-small-cards': '-8px 13px 15px rgba(0,0,0,0.21)',
+          'long-cards': '-15px 15px 13px rgba(0,0,0,0.17)',
+          'small-cards': '-19px 18px 35px rgba(0,0,0,0.17)',
+          'big-cards': '-23px 30px 60px rgba(0,0,0,0.17)',
+          none: 'none',
         }
       },
   },

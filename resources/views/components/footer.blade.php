@@ -1,5 +1,5 @@
 <footer class="bg-blue-950">
-     <div class="max-w-screen-xl mx-auto text-white px-4 py-1">
+     <div class="max-w-screen-xl mx-auto text-white px-4 py-1 text-center sm:text-left">
           <ul>
                <li>
                     <a href="#">Privacy Policy</a>
