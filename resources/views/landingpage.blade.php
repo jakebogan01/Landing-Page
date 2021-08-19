@@ -1,4 +1,4 @@
-<x-app>
+<x-app title="Home">
         
     <x-hero></x-hero>
 
