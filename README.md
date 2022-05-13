@@ -1,13 +1,41 @@
-<code>npm install</code>
+# landing-page
 
-<code>composer install</code>
+## Project setup
+```
+npm install
+```
 
-<code>cp .env.example .env</code>
+### install packages
+```
+composer install
+```
 
-<code>php artisan key:generate</code>
+### copy .env.example
+```
+cp .env.example .env
+```
 
-<code>npm run dev</code>
+### generate key
+```
+php artisan key:generate
+```
 
-<code>php artisan migrate</code>
+### generate key
+```
+php artisan key:generate
+```
 
-<code>php artisan serve</code>
+### Compiles
+```
+npm run dev
+```
+
+### create tables in databse
+```
+php artisan migrate
+```
+
+### create server
+```
+php artisan serve
+```
